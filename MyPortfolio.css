@@ -177,7 +177,9 @@ section {
   width: 400px;
   margin: auto 0;
 }
-
+.profile-img{
+    object-fit: contain;
+}
 .section__text {
   align-self: center;
   text-align: center;
@@ -287,6 +289,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  object-fit: contain;
 }
 
 .arrow {
